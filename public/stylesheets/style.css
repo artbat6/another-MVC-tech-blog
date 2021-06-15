@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    color:white;
+}
+
+main,
+.site-name {
+    background-color: #6dd4f3;
+}
+
+a,
+.btn-no-style,
+#comment-subtitle {
+    color: white;
+}
+
+a:hover,
+.btn-no-style:hover {
+    color: #e2edd5;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .1s;
+}
+
+button {
+    background-color: #3f5bb8;
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+}
