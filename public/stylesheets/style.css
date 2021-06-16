@@ -224,3 +224,51 @@ main {
     opacity: .6;
     border-radius: 5px;
 }
+
+.new-post-form input {
+    width: 300px;
+}
+
+.edit-post-form {
+    margin-bottom: 5%;
+}
+
+#comment-subtitle {
+    font-size: 16px;
+    font-style: bold;
+}
+
+.new-post-section {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#create-new-post {
+    width: 15%;
+}
+
+.sign-in-link,
+.login-link {
+    color: #0b0ff3;
+}
+
+.form-heading h1,
+.form-heading h2 {
+    color: white;
+}
+
+.login-form,
+.signup-form,
+.post-content,
+.post-title-section {
+    padding: 20px 20px 0px 0px;
+    border-radius: 5px;
+}
+
+.entry-field,
+.login-signup-btn,
+.btn,
+#post-title {
+    width: 100%;
+}
