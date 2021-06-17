@@ -8,13 +8,6 @@ const hbs = exphbs.create({ helpers });
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
-var reqTimer = setTimeout(function wakeUp() {
-  request("https://another-mvc-tech-blog.herokuapp.com/", function() {
-     console.log("WAKE UP DYNO");
-  });
-  return reqTimer = setTimeout(wakeUp, 1200000);
-}, 1200000);
-
 const sess = {
     secret: "Secret",
     cookie: {},
